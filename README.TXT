@@ -16,30 +16,36 @@ This VM is **intentionally vulnerable** and should **never** be exposed
 to the internet or in production. Use only in isolated environments.  
 !!!!!!!!!!!!!!!!!DISCLAIMER!!!!!!!!!!!!!!!!!!!!DISCLAIMER!!!!!!!!!!!!!!!
 ========================================================================
-###################Features & Configurations############################
-The machine includes the following vulnerable services and applications:  
-- DVWA (Damn Vulnerable Web App) – Installed and configured
-    - Browse to http://localIPAddr/DVWA
+## The machine includes the following vulnerable services and applications:  
+- **DVWA (Damn Vulnerable Web App)** – Installed and configured
+    - Browse to *http://localIPAddr/DVWA*
     - DVWA: https://github.com/digininja/DVWA
-- Mutillidae – Installed and configured 
-    - Browse to http://localIPAddr/mutillidae/src
-    - Mutillidae II: https://github.com/webpwnized/mutillidae
-- Vulnerable WordPress Site – Installed, configured, no security 
-- Weak FTP Server** – Allows anonymous logins   
-- Telnet Enabled – Insecure remote access  
-- Firewall Disabled – No network protection  
-- AppArmor Disabled - No mandatory access control for applications
-##########################REQUIREMENTS#################################
-- Hyper-V enabled on your host machine (Window 11 preferred)
-- The extracted Zombuntu VM folder archived/compressed with 7zip)
-- Import the Zombuntu VM into Hyper-V via Hyper-V Manager
+- **Mutillidae** – Installed and configured 
+    - Browse to *http://localIPAddr/mutillidae/src*
+    - Mutillidae: https://github.com/webpwnized/mutillidae
+- **Vulnerable WordPress Site** – Installed, configured, no security
+    - Browse to *http://localIPAddr/wordpress*
+- **Weak FTP Server** – Allows anonymous logins   
+- **Telnet Enabled** – Insecure remote access  
+- **Firewall Disabled** – No network protection  
+- **AppArmor Disabled** - No mandatory access control for applications
+## REQUIREMENTS
+- **Hyper-V**: https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/get-started/install-hyper-v?tabs=powershell&pivots=windows
+- **VMWare Workstation/VMWare Player**: https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion
+- **VirtualBox**: https://www.virtualbox.org/
+- Download and extract**Zombuntu VM folder **
+- Import the Zombuntu VM into the virutalization platform of your choice
 - Import/Export VMs: http://bit.ly/4aCuymB
 - Allocate 1GB - 2GB of RAM to the VM
-############################SYSTEM####################################
-- Username: admin01
-- Password: password
-##########################MYSQL/MARIADB###############################
-- Username: root
+## SYSTEM
+- Username: *admin01*
+- Password: *password*
+## MYSQL/MARIADB
+- Password: *password*
+## WORDPRESS DATABASE
+- Database: *vulnwp*
+- DB User: *wp_user*
+- Password: *password*
 - Password: password
 ########################WORDPRESS DATABASE############################
 - Database: vulnwp

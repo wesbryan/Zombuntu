@@ -47,8 +47,3 @@ to the internet or in production. Use only in isolated environments.
 - DB User: *wp_user*
 - Password: *password*
 - Password: password
-########################WORDPRESS DATABASE############################
-- Database: vulnwp
-- DB User: wp_user
-- Password: password
-######################################################################

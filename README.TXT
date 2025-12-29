@@ -5,7 +5,7 @@
 ████████████████████████████████████████████████████████████████████████
 ========================================================================
 This project is a **fun and educational setup** of a deliberately 
-vulnerable Ubuntu Server 18.04 virtual machine running on **Hyper-V**.    
+vulnerable Ubuntu Server 18.04 virtual machine    
 It is designed for practicing penetration testing, ethical hacking, and 
 security hardening techniques in a controlled environment. I put this
 together to help students get started testing security tools in an easy

@@ -32,11 +32,3 @@ to the internet or in production. Use only in isolated environments.
 ## SYSTEM
 - Username: *admin01*
 - Password: *password*
-## MYSQL/MARIADB
-- Username: *admin01*
-- Password: *password*
-## WORDPRESS DATABASE
-- Database: *vulnwp*
-- DB User: *wp_user*
-- Password: *password*
-- Password: password

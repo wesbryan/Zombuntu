@@ -29,18 +29,11 @@ to the internet or in production. Use only in isolated environments.
 - **Telnet Enabled** – Insecure remote access  
 - **Firewall Disabled** – No network protection  
 - **AppArmor Disabled** - No mandatory access control for applications
-## REQUIREMENTS
-- **Hyper-V**: https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/get-started/install-hyper-v?tabs=powershell&pivots=windows
-- **VMWare Workstation/VMWare Player**: https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion
-- **VirtualBox**: https://www.virtualbox.org/
-- Download and extract**Zombuntu VM folder **
-- Import the Zombuntu VM into the virutalization platform of your choice
-- Import/Export VMs: http://bit.ly/4aCuymB
-- Allocate 1GB - 2GB of RAM to the VM
 ## SYSTEM
 - Username: *admin01*
 - Password: *password*
 ## MYSQL/MARIADB
+- Username: *admin01*
 - Password: *password*
 ## WORDPRESS DATABASE
 - Database: *vulnwp*
